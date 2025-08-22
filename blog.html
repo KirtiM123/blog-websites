@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .blog-container { max-width: 700px; margin: 2em auto; background: #fff; border: 1px solid #ccc; padding: 2em; border-radius: 8px; }
+        .blog-title { font-size: 2em; margin-bottom: 0.5em; }
+        .blog-post { margin-bottom: 2em; }
+        .blog-meta { color: #888; font-size: 0.9em; margin-bottom: 0.5em; }
+        .logout-btn { float: right; margin-top: -1.5em; }
+    </style>
+</head>
+<body>
+    <div class="blog-container">
+        <button class="logout-btn" onclick="logout()">Logout</button>
+        <div class="blog-title">Welcome to the Blog!</div>
+        <div class="blog-post">
+            <div class="blog-meta">Posted by Admin on 2025-08-22</div>
+            <h3>First Blog Post</h3>
+            <p>This is a sample blog post. You can add, edit, or delete posts as you build your blog website.</p>
+        </div>
+        <div class="blog-post">
+            <div class="blog-meta">Posted by User1 on 2025-08-21</div>
+            <h3>Another Post</h3>
+            <p>Welcome to your blog! Start sharing your thoughts and ideas here.</p>
+        </div>
+    </div>
+    <script>
+        function logout() {
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>
