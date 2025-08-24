@@ -1,0 +1,19 @@
+/* Success and error messages */
+.form-message {
+    margin-top: 1em;
+    font-size: 1em;
+}
+.form-message.success {
+    color: green;
+}
+.form-message.error {
+    color: red;
+}
+body { font-family: Arial, sans-serif; }
+form { margin-bottom: 2em; padding: 1em; border: 1px solid #ccc; max-width: 350px; }
+label { display: block; margin-top: 1em; }
+input[type="submit"] { margin-top: 1em; }
+.hidden { display: none; }
+.tabs { display: flex; gap: 1em; margin-bottom: 1em; }
+.tab-btn { background: #f0f0f0; border: 1px solid #ccc; padding: 0.5em 1em; cursor: pointer; border-radius: 4px 4px 0 0; }
+.tab-btn.active { background: #fff; border-bottom: 1px solid #fff; font-weight: bold; }
